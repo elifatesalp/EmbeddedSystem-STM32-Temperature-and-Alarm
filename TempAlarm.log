@@ -1,0 +1,13 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F407VG -BIN -LHF -DL -SSA -O11111114 -fo16 -N"C:\Users\elifa\OneDrive\Masaüstü\sýcaklýkalarm.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" -SP"C:\Users\elifa\OneDrive\Masaüstü\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" "s_cakl_kalarm.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_4XX.emcl" "__Lib_GPIO_32F4xx_Defs.emcl" "__Lib_GPIO_32F4xx.emcl" "__Lib_CMath.emcl" "__Lib_Button.emcl" "__Lib_ADC_123_32F20x_16ch.emcl" "__Lib_LcdConsts.emcl" "__Lib_Lcd.emcl"	 
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 119	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 88	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 105	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	s_cakl_kalarm.c
+error: 53	324	Undeclared identifier 'FloatToStr' in expression	s_cakl_kalarm.c
+error: 73	315	Invalid expression	s_cakl_kalarm.c
+error: 72	402	; expected, but '' found	s_cakl_kalarm.c
+error: 73	424	'}' expected '' found	s_cakl_kalarm.c
+error: 73	424	'}' expected '' found	s_cakl_kalarm.c
+error: 0	102	Finished (with errors): 11 Nis 2022, 17:04:22	sýcaklýkalarm.mcpar
